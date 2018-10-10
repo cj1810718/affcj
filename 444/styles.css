@@ -1,0 +1,149 @@
+/* Code tidied up by ScrapBook */
+body { background: rgb(245, 245, 245) url("") repeat-x scroll 0px 0px; font: 11px/17px helvetica neue,helvetica,arial,sans-serif; color: rgb(34, 34, 34); margin: 0px; padding: 0px; }
+.logo { margin-top: 5px; margin-left: 5px; margin-bottom: 5px; display: inline-block; position: relative !important; top: 0px !important; }
+.logo img { height: 30px; }
+#submit, .submit, .data p span { background-color: rgb(153, 204, 0); }
+.results .loc, .subhead span, .loginHead, .best { color: rgb(153, 204, 0); }
+#header { display: none; }
+a { color: rgb(0, 0, 0) !important; text-decoration: underline !important; }
+* { margin: 0px; padding: 0px; }
+.wrapper { width: 100%; max-width: 600px; position: relative; margin: 12px auto; display: block; }
+.myPic { position: relative; overflow: hidden; text-align: center; height: 100%; }
+#video.loadingVideo { height: 0px; padding-bottom: 56%; }
+.headline { color: rgb(34, 34, 34); font-size: 12px; font-weight: bold; text-align: center; line-height: 0.8; position: absolute; bottom: 5px; right: 5px; }
+.myPic .online { position: absolute; background: rgb(153, 204, 0) none repeat scroll 0% 0%; color: white; border-radius: 5px; right: 10px; top: 10px; padding: 0px 10px; text-shadow: -1px -1px 0px rgb(83, 110, 0); font-weight: bold; }
+.myPic img { width: 98%; position: relative; z-index: 0; margin: 0px auto 5px 0px; }
+form h2 { color: rgb(34, 34, 34); font-size: 18px; font-weight: bold; letter-spacing: -1px; text-align: center; line-height: 0.8; }
+.drop { bottom: 20px !important; }
+.regForm { width: 98%; margin: 2px auto 0px; border: 1px solid rgb(219, 219, 219); }
+.regForm h2 { background: rgb(170, 170, 170) none repeat scroll 0% 0%; color: rgb(255, 255, 255); text-align: center; padding: 10px; border-radius: 10px 10px 0px 0px; font-size: 20px; }
+#video_logo { display: none !important; visibility: hidden !important; }
+.box-shdw { border-radius: 10px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; }
+.results { float: right; margin-right: 40px; margin-top: 30px; text-align: center; width: 400px; font-size: 16px; height: 80px; background: rgba(0, 0, 0, 0) url("shdw.png") no-repeat scroll 0px 0px; }
+.results .loc { font-size: 30px; padding: 5px; display: block; font-weight: bold; }
+#footer { text-align: center; margin: 10px auto 0px; display: none; }
+#footer p { display: none; }
+#footer .left { float: left; }
+.right { float: right; text-align: right; }
+.footer_top + .left { display: none; }
+.clear { clear: both; margin: 0px; padding: 0px; }
+.header { position: relative; z-index: 1000; }
+.subhead { position: absolute; right: 10px; font-size: 20px; text-align: right; bottom: 5px; letter-spacing: -1px; }
+.submit { text-align: center; display: inline; padding: 5px; background-image: url("grdnt.png"); background-position: center center; background-repeat: repeat-x; color: rgb(255, 255, 255); border: 0px none; cursor: pointer; border-radius: 5px; }
+.submit:hover { background: rgb(34, 34, 34) url("grdnt.png") repeat-x scroll center center; }
+.pre-footer { background: rgba(0, 0, 0, 0) url("bottomline2.png") no-repeat scroll center bottom; padding-bottom: 30px; margin-bottom: 10px; text-align: center; }
+.badge { display: inline-block; background: rgba(0, 0, 0, 0) url("badge.png") no-repeat scroll 0px 0px; width: 174px; height: 169px; margin: 0px auto; }
+.badge2 { display: inline-block; background: rgba(0, 0, 0, 0) url("badge.png") no-repeat scroll 0px 0px; width: 174px; height: 169px; margin: 0px auto; }
+.badge_fa { display: inline-block; background: rgba(0, 0, 0, 0) url("badge_cg.png") no-repeat scroll 0px 0px; width: 174px; height: 169px; margin: 0px auto; }
+.slideshow { float: left; display: inline-block; margin-left: 20px; height: 172px; width: 760px; overflow: hidden; }
+#mycarousel li { margin-right: 8px; }
+.clear { clear: both; margin: 0px; padding: 0px; }
+.innerHead { text-align: center; font-size: 16px; line-height: 18px; padding: 10px; background: rgb(254, 254, 219) none repeat scroll 0% 0%; }
+.innerHead span { font-weight: bold; }
+.thumby img { width: 120px !important; height: 150px !important; }
+.legal { text-align: center; }
+.login { float: left; }
+.best { float: right; font-size: 24px; text-align: right; letter-spacing: -1px; font-weight: bold; margin-top: 5px; margin-right: 10px; }
+.foot label { font-weight: bold; margin-left: 10px; }
+.foot-logo { margin: 0px auto !important; display: inline-block; opacity: 0.3; }
+.foot-line { background: rgba(0, 0, 0, 0) url("bottomline.png") no-repeat scroll center top; height: 33px; display: block; margin-top: 10px; margin-bottom: 10px; }
+.r0 p b { display: block; font-size: 14px; }
+.r0 input[type="text"] { width: 99%; height: 30px; border: 1px solid rgb(219, 219, 219); background: rgb(255, 255, 255) none repeat scroll 0% 0%; }
+.r0 select { height: 30px; width: 100%; border-width: 1px; border-style: solid; border-color: rgb(219, 219, 219); border-image: initial; background: rgb(255, 255, 255) none repeat scroll 0% 0%; }
+.form { width: 90%; margin: 0px auto; }
+#Fr1 p b, #Fr2 p b { display: block; text-align: left; padding-top: 2px; font-size: 14px; }
+#Fr1 p select, #Fr2 p select { height: 30px; width: 100%; border: 1px solid rgb(219, 219, 219); background: rgb(255, 255, 255) none repeat scroll 0% 0%; }
+#Fr1 p input[type="text"], #Fr2 p input[type="text"] { width: 99%; height: 30px; border: 1px solid rgb(219, 219, 219); background: rgb(255, 255, 255) none repeat scroll 0% 0%; display: block; }
+#Fr1 select.birthday { width: 129px; }
+#Fr1 select[name="mon"], #Fr1 select[name="day"] { margin-right: 4px; }
+#Fr1 select[name="day"] { width: 66px; }
+#Fr1 p, Fr2 p { display: block; margin-bottom: 4px; }
+#submit { text-align: center; display: inline-block; padding: 10px 0px; background-image: url("grdnt.png"); background-position: center center; background-repeat: repeat-x; color: rgb(255, 255, 255); margin-top: 10px; border: 0px none; cursor: pointer; border-radius: 8px; width: 100%; margin-bottom: 10px; font-size: 20px; font-weight: bold; }
+#submit:hover { background: rgb(34, 34, 34) url("grdnt.png") repeat-x scroll center center; }
+.emailSub { text-align: center; line-height: 12px; font-size: 10px; color: rgb(138, 138, 138); float: none !important; margin-bottom: 15px !important; }
+.agree { font-size: 9px; text-align: center; margin-top: 10px; padding: 0px; }
+.err { border: 1px solid red !important; color: red !important; }
+#e, .e, .required.error { background: rgb(251, 223, 223) none repeat scroll 0% 0% !important; font-weight: bold; color: red; border: 1px solid red !important; padding: 4px 0px 2px 2px; }
+.error { border: 1px solid red !important; }
+label.error { display: block; margin-top: 5px; }
+.addr_p { clear: both; }
+.addr_p b {  }
+.addr { display: block; margin-bottom: 5px; }
+textarea.about { margin-top: -18px; }
+textarea { height: 70px; border: 1px solid rgb(219, 219, 219); background: rgb(255, 255, 255) none repeat scroll 0% 0%; }
+.p_country { margin-bottom: 5px; }
+.birthday.mon, .birthday.day, .birthday.year { width: 31% !important; }
+.about_p { margin-top: 10px; }
+.about_p strong { display: block; font-size: 14px; }
+.about_p small { display: none; }
+kbd span { display: none; }
+#Fr2 p { clear: both; margin-bottom: 10px; }
+#Fr2 p select { height: 30px; width: 100%; border: 1px solid rgb(219, 219, 219); background: rgb(255, 255, 255) none repeat scroll 0% 0%; }
+.pr_Headline_p { clear: both; margin-top: 10px; }
+#Fr2 .about { width: 100% !important; }
+#Fr2 p input[type="text"] {  }
+.address_b { padding-top: 10px; }
+.pr_Headline_p strong { font-size: 14px; }
+.msg { margin-bottom: 10px; margin-top: 10px; }
+.msg li { list-style: outside none none; }
+.msg li { margin: 0px; padding: 0px 0px 0px 10px; }
+.msg li::before { content: "X"; font-weight: bold; font-size: 10px; color: rgb(255, 255, 255); background: red none repeat scroll 0% 0%; border-radius: 20px; height: 12px; width: 12px; line-height: 12px; text-align: center; padding: 0px 3px; margin-right: 4px; }
+#Fr2 h3 { border-bottom: 1px solid rgb(219, 219, 219); padding-bottom: 5px; margin-bottom: 10px; }
+#displayName p { margin-bottom: 0px !important; }
+.sub { display: block; clear: both; margin-bottom: 5px; margin-top: -2px; }
+.sub #e { display: block; }
+#csinfo { display: none; }
+.footer { display: none; }
+#pre_footer, .shadow_900, #pop_login { display: none; }
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  #myVideo { height: 224px; }
+}
+@media only screen and (min-width: 480px) {
+  #myVideo { height: 338px; }
+}
+@media not all, not all {
+  #myVideo { height: 180px; }
+}
+.error {  }
+div#e { text-align: center; background: rgb(251, 223, 223) none repeat scroll 0% 0% !important; font-weight: bold; color: red; border: 1px solid red !important; padding: 4px 0px 2px 2px; font-size: 12px; }
+.alt_logins { color: rgb(0, 0, 0); font-size: 12px; }
+.alt_logins u { color: blue; margin: 2px; padding: 2px; font-size: 12px; cursor: pointer; display: inline-block; }
+.headingMd.c2 { color: rgb(191, 0, 0); }
+.c3 { color: rgb(0, 0, 139); }
+#submit, .submit, .data p span { background-color: rgb(136, 186, 126); }
+#submit:hover, .submit:hover, .data p span:hover { background-color: rgb(124, 170, 115); }
+.results .loc, .subhead span, .loginHead, .best, .headline span { color: rgb(255, 0, 0); }
+.innerHead { background: rgb(228, 237, 226) none repeat scroll 0% 0%; }
+.subhead { font-size: 20px; }
+.fa { display: none; }
+.flt { display: block; }
+.regForm.regFormAlt h2 { font-size: 18px; line-height: 1; padding: 6px; }
+.regForm.regFormAlt .inputField, .regForm.regFormAlt .r0 input[type="text"] { font-size: 13px; font-weight: bold; height: 2em; line-height: 2; padding: 0px 0.5em; width: 96%; border-width: 1px; border-style: solid; border-color: rgb(219, 219, 219); border-image: initial; background: rgb(255, 255, 255) none repeat scroll 0% 0%; }
+@media (min-width: 768px) {
+  .regForm.regFormAlt h2 { font-size: 28px; line-height: 17px; padding: 15px 10px; }
+  #submit, .regForm.regFormAlt .inputField, .regForm.regFormAlt .r0 input[type="text"] { font-size: 20px; }
+}
+.form.formContent p { margin-bottom: 10px; }
+.form.formContent p.headingMd { clear: both; display: block; font-size: 16px; font-weight: bold; line-height: 1.1; margin: 0px auto 1em; text-align: left; }
+.form.formContent p label { display: block; font-size: 14px; font-weight: bold; height: auto; line-height: 1; margin-bottom: 0.25em; }
+.form.formContent p label.checkfield { display: block; margin-left: auto; margin-right: auto; font-weight: normal; font-size: 13.5px; text-align: center; }
+.form.r0.formContent { margin-top: 10px; }
+@media only screen and (min-width: 568px) {
+  .form.formContent p.headingMd { font-size: 15px; }
+  .form.formContent p label { font-size: 14px; }
+}
+.sampleProfiles { display: block; max-width: 250px; margin: auto; float: none; width: 95%; }
+@media only screen and (min-width: 768px) {
+  .form.formContent p.headingMd { font-size: 26px; }
+  .form.formContent p label { font-size: 20px; }
+  .form.formContent p label { font-size: 26px; }
+  .sampleProfiles { margin: 0px auto; float: none; font-weight: bold; }
+}
+.verify-text { font-size: 10px; line-height: 1.3; padding: 5px; text-align: center; width: 270px; margin: 0px auto; }
+.regForm.regFormAlt iframe { margin: 0px auto; padding-top: 10px; }
+@media only screen and (min-width: 414px) {
+  .verify-text { font-size: 16px; padding: 5px; width: 400px; }
+}
+@media only screen and (min-width: 768px) {
+  .verify-text { font-size: 16px; padding: 5px 20px 0px; width: 500px; }
+}

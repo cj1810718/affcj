@@ -1,0 +1,572 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<title>FreeHookupAffair - Free Adult Dating & Sex Hookups</title>
+<meta name="description" content="Free Hookup Affair is the top adult dating and sex hookup site. Find your sex match today at no cost.">
+<meta name="keywords" content="adult dating, sex dating, sex hookup, hookup, sex personals, sex match, free adult dating, free hookup, local sex, sex buddy, friend finder">
+	<link href='https://fonts.googleapis.com/css?family=Hind:400,700,300,500' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="/css/styles.css" />
+	<!--[if lt IE 9]>
+	<script src="/js/html5shiv.js"></script>
+	<script src="/js/respond.min.js"></script>
+	<![endif]-->
+	
+<link rel="manifest" href="/manifest.json">
+<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async></script>
+<script>
+  var OneSignal = window.OneSignal || [];
+  OneSignal.push(function() {
+    OneSignal.init({
+      appId: "9738265c-557f-4d58-b5aa-7ad706fdf98f",
+      autoRegister: true,
+      notifyButton: {
+        enable: false,
+      },
+	welcomeNotification: {
+        disable: true
+    },
+    });
+  });
+</script>
+</head>
+<body>
+
+	<header class="header" role="banner">
+
+		<div class="header-top">
+
+			<div class="container">
+
+				<h1 class="logo"><a title="Free Hookup Affair" href="./"><img src="/images/logo.png" alt="Free Hookup Affair" /></a></h1>
+				
+				<div class="header-top-right">
+					<span>Already a member?</span>
+					<a href="http://freedatesforlife.com/members/" target="_blank" class="btn btnGrad hb">Sign In</a>
+				</div>
+				<!-- /.header-top-right -->
+
+			</div>
+			<!-- /.container -->
+
+		</div>
+		<!-- /.header-top -->
+
+		<div class="header-content">
+			
+			<div class="container">
+
+				<div class="header-content-left">
+
+					<p class="header-description"><strong>#1</strong> Casual Adult Dating Site<br>Millions of Members<br>Thousands Online Now<br><strong>Free to Email</strong> Premium Members!</p>
+					<!-- /.header-description -->
+
+					<div class="seenOn">
+						<img src="/images/seen-on-1.png" alt="Seen On 1" />
+						<img src="/images/seen-on-2.png" alt="Seen On 2" />
+						<img src="/images/seen-on-3.png" alt="Seen On 3" />
+						<img src="/images/seen-on-4.png" alt="Seen On 4" />
+					</div>
+					<!-- /.seenOn -->
+
+				</div>
+				<!-- /.header-content-left -->
+
+
+				<div class="header-content-right">
+					
+					<div class="header-content-right-text">
+						<em>Join The Club</em>
+						<span>Meet Local Singles</span>
+					</div>
+					<!-- /.header-content-right-text -->
+
+					<div class="header-content-form">
+
+						<form id="join" action="join.php" method="get">
+							<input type="hidden" name="track" value="cntry-404">
+							<p class="form-row">
+								<label for="gender">I am a:</label>
+								<select name="gender" id="gender">
+									<option value="man">Man</option>
+									<option value="woman">Woman</option>
+								</select>
+							</p>
+							<p class="form-row">
+								<label for="orientation">Interested in:</label>
+								<select name="orientation" id="orientation">
+									<option value="girls">Girls</option>
+									<option value="guys">Guys</option>
+								</select>
+							</p>
+							<p class="form-row row-splitted">
+								<label for="agefrom">Ages:</label>
+								<select name="agefrom" id="agefrom">
+									<option value="18" selected="selected">18</option>
+										<option value="19">19</option>
+										<option value="20">20</option>
+										<option value="21">21</option>
+										<option value="22">22</option>
+										<option value="23">23</option>
+										<option value="24">24</option>
+										<option value="25">25</option>
+										<option value="26">26</option>
+										<option value="27">27</option>
+										<option value="28">28</option>
+										<option value="29">29</option>
+										<option value="30">30</option>
+										<option value="31">31</option>
+										<option value="32">32</option>
+										<option value="33">33</option>
+										<option value="34">34</option>
+										<option value="35">35</option>
+										<option value="36">36</option>
+										<option value="37">37</option>
+										<option value="38">38</option>
+										<option value="39">39</option>
+										<option value="40">40</option>
+										<option value="41">41</option>
+										<option value="42">42</option>
+										<option value="43">43</option>
+										<option value="44">44</option>
+										<option value="45">45</option>
+										<option value="46">46</option>
+										<option value="47">47</option>
+										<option value="48">48</option>
+										<option value="49">49</option>
+										<option value="50">50</option>
+										<option value="51">51</option>
+										<option value="52">52</option>
+										<option value="53">53</option>
+										<option value="54">54</option>
+										<option value="55">55</option>
+										<option value="56">56</option>
+										<option value="57">57</option>
+										<option value="58">58</option>
+										<option value="59">59</option>
+										<option value="60">60</option>
+										<option value="61">61</option>
+										<option value="62">62</option>
+										<option value="63">63</option>
+										<option value="64">64</option>
+										<option value="65">65</option>
+										<option value="66">66</option>
+										<option value="67">67</option>
+										<option value="68">68</option>
+										<option value="69">69</option>
+										<option value="70">70</option>
+										<option value="71">71</option>
+										<option value="72">72</option>
+										<option value="73">73</option>
+										<option value="74">74</option>
+										<option value="75">75</option>
+										<option value="76">76</option>
+										<option value="77">77</option>
+										<option value="78">78</option>
+										<option value="79">79</option>
+										<option value="80">80</option>
+										<option value="81">81</option>
+										<option value="82">82</option>
+										<option value="83">83</option>
+										<option value="84">84</option>
+										<option value="85">85</option>
+										<option value="86">86</option>
+										<option value="87">87</option>
+										<option value="88">88</option>
+										<option value="89">89</option>
+										<option value="90">90</option>
+										<option value="91">91</option>
+										<option value="92">92</option>
+										<option value="93">93</option>
+										<option value="94">94</option>
+										<option value="95">95</option>
+										<option value="96">96</option>
+										<option value="97">97</option>
+										<option value="98">98</option>
+										<option value="99">99</option>
+									</select>
+								<span>to</span>
+								<select name="ageto" id="ageto">
+										<option value="18">18</option>
+										<option value="19">19</option>
+										<option value="20">20</option>
+										<option value="21">21</option>
+										<option value="22">22</option>
+										<option value="23">23</option>
+										<option value="24">24</option>
+										<option value="25">25</option>
+										<option value="26">26</option>
+										<option value="27">27</option>
+										<option value="28">28</option>
+										<option value="29">29</option>
+										<option value="30">30</option>
+										<option value="31">31</option>
+										<option value="32">32</option>
+										<option value="33">33</option>
+										<option value="34">34</option>
+										<option value="35">35</option>
+										<option value="36">36</option>
+										<option value="37">37</option>
+										<option value="38">38</option>
+										<option value="39">39</option>
+										<option value="40">40</option>
+										<option value="41">41</option>
+										<option value="42">42</option>
+										<option value="43">43</option>
+										<option value="44">44</option>
+										<option value="45">45</option>
+										<option value="46">46</option>
+										<option value="47">47</option>
+										<option value="48">48</option>
+										<option value="49">49</option>
+										<option value="50">50</option>
+										<option value="51">51</option>
+										<option value="52">52</option>
+										<option value="53">53</option>
+										<option value="54">54</option>
+										<option value="55">55</option>
+										<option value="56">56</option>
+										<option value="57">57</option>
+										<option value="58">58</option>
+										<option value="59">59</option>
+										<option value="60">60</option>
+										<option value="61">61</option>
+										<option value="62">62</option>
+										<option value="63">63</option>
+										<option value="64">64</option>
+										<option value="65">65</option>
+										<option value="66">66</option>
+										<option value="67">67</option>
+										<option value="68">68</option>
+										<option value="69">69</option>
+										<option value="70">70</option>
+										<option value="71">71</option>
+										<option value="72">72</option>
+										<option value="73">73</option>
+										<option value="74">74</option>
+										<option value="75">75</option>
+										<option value="76">76</option>
+										<option value="77">77</option>
+										<option value="78">78</option>
+										<option value="79">79</option>
+										<option value="80">80</option>
+										<option value="81">81</option>
+										<option value="82">82</option>
+										<option value="83">83</option>
+										<option value="84">84</option>
+										<option value="85">85</option>
+										<option value="86">86</option>
+										<option value="87">87</option>
+										<option value="88">88</option>
+										<option value="89">89</option>
+										<option value="90">90</option>
+										<option value="91">91</option>
+										<option value="92">92</option>
+										<option value="93">93</option>
+										<option value="94">94</option>
+										<option value="95">95</option>
+										<option value="96">96</option>
+										<option value="97">97</option>
+										<option value="99" selected="selected">99</option>
+								</select>
+							</p>
+							<p class="form-row">
+								<label for="location">Near:</label>
+								<select name="location" id="location">
+									<option>Alabama</option><option>Alaska</option><option>Arizona</option><option>Arkansas</option><option>California</option><option>Colorado</option><option>Connecticut</option><option>Delaware</option><option>District Of Columbia</option><option>Florida</option><option>Georgia</option><option>Hawaii</option><option>Idaho</option><option>Illinois</option><option>Indiana</option><option>Iowa</option><option>Kansas</option><option>Kentucky</option><option>Louisiana</option><option>Maine</option><option>Maryland</option><option>Massachusetts</option><option>Michigan</option><option>Minnesota</option><option>Mississippi</option><option>Missouri</option><option>Montana</option><option>Nebraska</option><option>Nevada</option><option>New Hampshire</option><option>New Jersey</option><option>New Mexico</option><option>New York</option><option>North Carolina</option><option>North Dakota</option><option>Ohio</option><option>Oklahoma</option><option>Oregon</option><option>Pennsylvania</option><option>Rhode Island</option><option>South Carolina</option><option>South Dakota</option><option>Tennessee</option><option>Texas</option><option>Utah</option><option>Vermont</option><option>Virginia</option><option>Washington</option><option>West Virginia</option><option>Wisconsin</option><option>Wyoming</option>
+								</select>
+							</p>						
+							<p class="form-row no-label">
+								<button class="btn btnGrad bh" type="submit">Find Affair</button>
+							</p>						
+						</form>
+						
+					</div>
+
+				</div>
+				<!-- /.header-content-right -->
+
+			</div>
+			<!-- /.container -->
+
+		</div>
+		<!-- /.header-content -->
+
+	</header>
+	<!-- /.header -->
+
+	<nav class="mainNav" role="navigation">
+		
+		<div class="container">
+
+			<button id="menuToggle" class="hb" type="button" data-toggle="collapse" data-target="#mainNavOptions" aria-expanded="false" aria-controls="mainNavOptions"><span>Menu </span> <img src="images/icon-menu.png" alt="Menu icon" /></button>
+			<!-- /#menuToggle -->
+			
+			<div id="mainNavOptions" class="navbar collapse">
+				<a class="highlight" href="#join">Join Free Now!</a>
+				<a href="#rules">Affair Rules</a>
+				<a href="#testimonials">Testimonials</a>
+				<a href="#howItWorks">How It Works</a>
+				<a href="#features">Features</a>
+			</div>
+			<!-- /#mainNavOptions -->
+
+		</div>
+		<!-- /.container -->
+
+	</nav>
+	<!-- /.mainNav -->
+
+
+
+	<main role="main">
+		
+
+		<section id="rules" class="section section-rules bgGrad">
+
+			<div class="container">
+
+				<h2>Affair Rules</h2>
+
+				<div class="slideshow-container">
+
+					<ul id="slideshowRules" class="slideshow">
+					  <li><img src="/images/slides/slider-1.jpg" alt="Slide 1"></li>
+					  <li><img src="/images/slides/slider-2.jpg" alt="Slide 2"></li>
+					  <li><img src="/images/slides/slider-3.jpg" alt="Slide 3"></li>
+					  <li><img src="/images/slides/slider-4.jpg" alt="Slide 4"></li>
+					  <li><img src="/images/slides/slider-5.jpg" alt="Slide 5"></li>
+					  <li><img src="/images/slides/slider-6.jpg" alt="Slide 6"></li>
+					  <li><img src="/images/slides/slider-7.jpg" alt="Slide 7"></li>
+					  <li><img src="/images/slides/slider-8.jpg" alt="Slide 8"></li>
+					  <li><img src="/images/slides/slider-9.jpg" alt="Slide 9"></li>
+					  <li><img src="/images/slides/slider-10.jpg" alt="Slide 10"></li>
+					</ul>
+
+				</div>
+				<!-- /.slideshow-container -->
+
+			</div>
+			<!-- /.container -->
+
+		</section>
+		<!-- /#rules -->
+
+
+
+		<section id="testimonials" class="section section-testimonials bg">
+
+			<div class="container">
+
+				<h2>testimonials</h2>
+
+				<div class="block block-testimonials">
+
+					<div class="blockItem">
+
+						<figure class="testimonial-preview"><img src="/images/testimonials/1.jpg" alt="Preview Testimonial 99" /></figure>
+
+						<div class="testimonial-description">Met someone who is just awesome and we click perfectly. Don't know what will happen next but I'm ready to give it a shot! Thanks, FHA!</div>
+
+						<div class="testimonial-info">PARTYGAL72, 44,<br>Athens, GA</div>
+
+					</div>
+
+
+					<div class="blockItem">
+
+						<figure class="testimonial-preview"><img src="/images/testimonials/2.jpg" alt="Preview Testimonial 2" /></figure>
+
+						<div class="testimonial-description">I met someone on this site just to hookup with and it was so steamy. Thanks!</div>
+
+						<div class="testimonial-info">HONEYDEE21, 22,<br>Staten Island, NY</div>
+
+					</div>
+
+
+					<div class="blockItem">
+
+						<figure class="testimonial-preview"><img src="/images/testimonials/3.jpg" alt="Preview Testimonial 3" /></figure>
+
+						<div class="testimonial-description">Started out as friends with benefits but we actually vibe on a deeper level and the sex is AMAZING!</div>
+
+						<div class="testimonial-info">LAMONT7901, 45,<br>Fort Bragg, NC</div>
+
+					</div>
+
+
+					<div class="blockItem">
+
+						<figure class="testimonial-preview"><img src="/images/testimonials/4.jpg" alt="Preview Testimonial 4" /></figure>
+
+						<div class="testimonial-description">Thank you FHA, now I can hookup in minutes and satisfy my horny cravings :)</div>
+
+						<div class="testimonial-info">MBZDLSFNST, 29,<br>San Diego, CA</div>
+
+					</div>
+
+
+					<div class="blockItem">
+
+						<figure class="testimonial-preview"><img src="/images/testimonials/5.jpg" alt="Preview Testimonial 5" /></figure>
+
+						<div class="testimonial-description">Whenever I need to get laid without having a serious relatiopship, I end up coming here! Thanks, a lot!</div>
+
+						<div class="testimonial-info">JANEPUTZ, 41,<br>Los Angeles, CA</div>
+
+					</div>
+
+
+					<div class="blockItem">
+
+						<figure class="testimonial-preview"><img src="/images/testimonials/6.jpg" alt="Preview Testimonial 6" /></figure>
+
+						<div class="testimonial-description">Looks like I found my sex hookup... I gotta say, the whole experience was a delight!</div>
+
+						<div class="testimonial-info">LADYFRCKL83, 28,<br>New York, NY</div>
+
+					</div>
+
+
+				</div>
+				<!-- /.block.block-testimonials -->
+
+
+			</div>
+			<!-- /.container -->
+
+
+		</section>
+		<!-- /#testimonials -->
+		
+
+
+		<section id="howItWorks" class="section section-howitworks bgGradAlt">
+
+			<div class="container">
+
+				<h2>How It Works</h2>
+
+				<ol class="block block-howitworks">
+
+					<li class="blockItem">
+						<figure><img src="/images/icon-lock.png" alt="Join The Club" /></figure>
+						<h3><small>1.</small> <strong>Join The Club</strong></h3>
+					</li>
+
+					<li class="blockItem">
+						<figure><img src="/images/icon-search.png" alt="Mingle Online" /></figure>
+						<h3><small>2.</small> <strong>Mingle Online</strong></h3>
+					</li>
+
+					<li class="blockItem">
+						<figure><img src="/images/icon-meet.png" alt="After-Party Offline" /></figure>
+						<h3><small>3.</small> <strong>After-Party Offline</strong></h3>
+					</li>
+
+				</ol>
+
+
+			</div>
+			<!-- /.container -->
+
+		</section>
+		<!-- /#howItWorks -->
+
+
+
+		<section id="features" class="section section-features bg">
+
+			<div class="container">
+
+				<h2>Features</h2>
+
+				<ul class="block block-features">
+
+					<li class="blockItem">
+						<figure><img src="/images/icon-private_messaging.png" alt="Private Messaging" /></figure>
+						<h3>Private Messaging</h3>
+						<p>Enjoy safe, discreet messaging so you can communicate with millions of members without giving away personal information... unless you want to ;)</p>
+					</li>
+
+					<li class="blockItem">
+						<figure><img src="/images/icon-video_chat.png" alt="Video Chat" /></figure>
+						<h3>Video Chat</h3>
+						<p>Size up your potential matches before meeting in person! Chat, get to know each other, and flirt face-to-face... without leaving your computer.</p>
+					</li>
+
+					<li class="blockItem">
+						<figure><img src="/images/icon-get_lucky.png" alt="Get Lucky" /></figure>
+						<h3>Get Lucky</h3>
+						<p>Set the specifications for the type of sexy single you'd like to meet, and we'll send you one member who fits your standards every day! Meeting a compatible single has never been easier!</p>
+					</li>
+
+					<li class="blockItem">
+						<figure><img src="/images/icon-booty_call_list.png" alt="Booty Call List" /></figure>
+						<h3>Booty Call List</h3>
+						<p>Throw away your "little black book" and instead keep all your booty calls in one easy-to-access place, so you'll never be without options!</p>
+					</li>
+
+				</ul>
+
+			</div>
+			<!-- /.container -->
+
+		</section>
+		<!-- /#features -->
+
+
+
+		<aside id="about" class="section section-about bgGrad" role="complementary">
+
+			<div class="container">
+
+				<div class="heading">Online Dating...<span>Free Hookup Affair</span></div>
+
+				<div class="text">
+					<p>At Free Hookup Affair we take a casual approach to adult dating online. Sex dating should be fun, not serious, that's why Free Hookup Affair has millions of personals for singles who love to date and booty call. Our fun and lighthearted approach means you meet local singles who date, bang, and love being single all at the same time. With thousands of members joining daily, FreeHookupAffair is the number one casual adult dating site for single men and single women. It's simple; don't promise marriage just to get a date. Join FreeHookupAffair today by creating a free profile and start finding what you really want.<br>Casual Online Dating the Right Way</p>
+
+					<p>Stop wasting your time on dating sites full of stuffy singles looking for their soul mate. Instead, save money by forgoing horrible blind dates and expensive drinks at bars or nightclubs. Discover the magic of booty calls. It's time to get what you want, with whom you want, and when you want it. Join FreeHookupAffair today and meet adult singles like you who want to mix the experience of dating with the excitement of being single. FHA is casual online sex dating done right.<br>Find Just What You're Looking For</p>
+
+					<p>Whether you want to find a sex hookup, meet new people, make friends, bang casually, see adult personals, or booty call, FreeHookupAffair.com is the online sex dating site for you. It's free, easy to join, and tons of fun! At FreeHookupAffair, it's all about finding the pieces without the puzzle. Start your booty call today...</p>
+				</div>
+				<!-- /.text -->
+				
+			</div>
+			<!-- /.container -->
+
+		</aside>
+		<!-- /#about -->
+
+	
+	</main>
+
+
+
+	<footer class="footer bg">
+
+		<div class="container">
+
+			<div class="links">
+				<a href="javascript:void(0);">Rate Booty</a> <span>|</span>
+				<a href="javascript:void(0);">Browse by Location</a> <span>|</span>
+				<a href="javascript:void(0);">Hookup Commandments</a> <span>|</span>
+				<a href="http://www.whalecash.com">Affiliates</a> <span>|</span>
+				<a href="javascript:void(0);">Terms of Service</a> <span>|</span>
+				<a href="javascript:void(0);">Privacy Policy</a> <span>|</span>
+				<a href="http://www.csmembers.com" target="_blank">Customer Support</a>
+			</div>
+
+		</div>
+		<!-- /.container -->
+
+	</footer>
+	<!-- /.footer -->
+
+<script type="text/javascript" src="/js/jquery.min.js"></script>
+<script type="text/javascript" src="/js/fn.min.js"></script>
+</body>
+</html>

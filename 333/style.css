@@ -1,0 +1,152 @@
+/* Code tidied up by ScrapBook */
+html, body { height: 100%; }
+body { padding: 0px; margin: 0px; background: rgb(247, 247, 247) none repeat scroll 0% 0%; color: rgb(223, 226, 255); font-size: 15px; font-family: "Rubik",arial,sans-serif; }
+* { box-sizing: border-box; }
+ul { list-style-type: none; }
+ul, li { padding: 0px; margin: 0px; }
+h1, h2, h3, h4 { padding: 0px; margin: 0px; font-family: "Roboto",sans-serif; }
+header, .profile-box, .profile-box .profile-box-large, .profile-box .pin-point, .profile-box .profile-box-small, .profile-box .profile-box-small .info, .history, .chat-box .messages .message-box .message, .chat-box .messages .message-box .message .just-now, .chat-box .messages .message-box .message .pic, .chat-box .messages .message-box .is-typing, .submit-box, .submit-box .input, .pop-up, .pop-up .chat-circle-small, .pop-up .pop-inner, .pop-up .btn, .btn a, .pop-up .box-slide, .pop-up .number-line, .pop-up .number, .pop-up .number-text, .pop-up .btn-yes-no-box, .chat-box .messages { display: flex; flex-direction: column; align-items: center; justify-content: center; }
+header, .profile-box .pin-point, .profile-box .profile-box-small, .chat-box .messages .message-box .message, .chat-box .messages .message-box .is-typing, .submit-box .input, .pop-up .btn, .pop-up .number-line, .pop-up .btn-yes-no-box, .btn a, .chat-box .messages { flex-direction: row; }
+.all-box { width: 100%; height: 100%; float: left; position: relative; z-index: 0; }
+.all-box-inner { width: 100%; max-width: 550px; height: 100%; max-height: 700px; min-height: 435px; position: relative; z-index: 0; margin: 0px auto; }
+.black { background: rgb(23, 22, 22) none repeat scroll 0% 0%; }
+.grey { background: rgb(36, 42, 49) none repeat scroll 0% 0%; }
+.yellow { background: rgb(255, 210, 41) none repeat scroll 0% 0% !important; color: rgb(23, 22, 22) !important; }
+header, .profile-box, .chat-box .history, .submit-box { fill: currentcolor; color: rgb(223, 226, 255); }
+header { width: 100%; height: 12%; position: relative; }
+header .arrow { position: absolute; right: 20px; height: 21px; width: 21px; top: 0px; bottom: 0px; margin: auto; cursor: pointer; }
+header .name { font-size: 21px; letter-spacing: 1px; text-transform: uppercase; cursor: pointer; }
+.profile-box { width: 100%; height: 50%; text-align: center; }
+.profile-box .profile-box-large { width: 100%; height: 100%; }
+.profile-box .profile-box-large .name { width: 100%; font-size: 21px; letter-spacing: 1px; font-weight: bold; }
+.profile-box .profile-box-large .profile-large { height: 60%; margin: 10px 0px 20px; border-radius: 50%; border: 5px solid rgb(255, 255, 255); background-size: cover !important; }
+.profile-box .profile-box-large .pin-point, .profile-box .profile-box-small .pin-point { width: 100%; fill: currentcolor; color: rgb(255, 210, 41); }
+.profile-box .profile-box-large .pin-point .pin-svg { width: 20px; height: 20px; margin: 0px 4px; }
+.profile-box .profile-box-large .pin-point span, .profile-box .profile-box-small .pin-point span { font-size: 18px; }
+.profile-box .profile-box-small { width: 100%; height: 100%; justify-content: flex-start; opacity: 0; display: none; }
+.profile-box .profile-box-small .profile-small { width: 70px; height: 70px; margin: 0px 13px 0px 10px; border-radius: 50%; border: 3px solid rgb(255, 255, 255); background-size: cover !important; position: relative; }
+.profile-box .profile-box-small .profile-small, .chat-box .messages .profile-small { width: 70px; height: 70px; min-width: 70px; min-height: 70px; }
+.profile-box .profile-box-small .profile-small .circle-online { width: 15px; height: 15px; border-radius: 50%; border: 3px solid rgb(255, 255, 255); background: rgb(80, 199, 2) none repeat scroll 0% 0%; position: absolute; bottom: 0px; right: 1px; }
+.profile-box .profile-box-small .info { width: 60%; align-items: flex-start; }
+.profile-box .profile-box-small .info .name { font-size: 17px; letter-spacing: 1px; }
+.profile-box .profile-box-small .info .active { font-size: 11px; text-transform: uppercase; padding: 5px 0px; letter-spacing: 1px; color: rgb(255, 255, 255); }
+.profile-box .profile-box-small .pin-point { justify-content: flex-start; margin: 0px 0px 0px -3px; }
+.profile-box .profile-box-small .pin-point .pin-svg { width: 18px; height: 18px; margin: 0px 5px 0px 0px; }
+.history { width: 100%; height: 10%; text-transform: uppercase; font-size: 14px; border-top: 1px solid rgb(66, 70, 76); }
+.chat-box { width: 100%; float: left; }
+.chat-box .messages { width: 100%; height: 100%; position: relative; align-items: flex-start; }
+.chat-box .messages .profile-small { margin: 0px 0px 0px 3px; position: relative; border-radius: 50%; border: 3px solid rgb(255, 255, 255); background-size: cover !important; }
+.chat-box .messages .message-box { width: calc(100% - 93px); height: 100%; overflow: auto; float: right; padding: 0px 0px 25px; margin: 0px 0px 0px 5px; }
+.chat-box .messages .message-box .border { width: 100%; padding: 0px 5px; border-left: 2px solid rgb(233, 106, 130); display: none; }
+.chat-box .messages .message-box .message { background: rgb(41, 98, 255) none repeat scroll 0% 0%; width: 100%; border-radius: 0px 20px 20px; padding-top: 10px; padding-bottom: 10px; padding-left: 20px; padding-right: 75px !important; margin: 0px 0px 5px; color: rgb(255, 255, 255); position: relative; justify-content: flex-start; display: none; }
+.chat-box .messages .message-box .message span { width: 100%; }
+.chat-box .messages .message-box .message .just-now { height: 100%; font-size: 10px; font-family: arial,sans-serif; text-transform: uppercase; letter-spacing: 1px; position: absolute; right: 10px; top: 0px; bottom: 0px; margin: auto; }
+.chat-box .messages .message-box .message .pic { width: 100px; height: 100px; background-size: 120% auto !important; color: rgb(255, 255, 255); text-shadow: 0px 0px 5px rgb(0, 0, 0); font-weight: bold; font-size: 15px; text-decoration: underline; text-transform: uppercase; font-family: arial,sans-serif; text-align: center; cursor: pointer; }
+.chat-box .messages .message-box .is-typing { width: 100%; margin: 20px 0px 0px; justify-content: flex-start; padding: 0px 0px 0px 10px; }
+.chat-box .messages .message-box .is-typing span { margin: 0px 10px 0px 0px; }
+.dot { display: inline-block; width: 12px; height: 12px; border-radius: 50%; margin-right: 3px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; animation: 0.8s linear 0s normal none infinite running wave; }
+.dot:nth-child(2) { animation-delay: -0.6s; }
+.dot:nth-child(3) { animation-delay: -0.3s; }
+@keyframes wave {
+0%, 60%, 100% { transform: initial; }
+30% { opacity: 0; }
+}
+.submit-box { width: 100%; height: 12%; padding: 5px; position: absolute; bottom: 0px; left: 0px; }
+.submit-box .input { width: 100%; height: 100%; justify-content: flex-start; position: relative; border: 1px solid rgb(66, 70, 76); cursor: text; font-size: 18px; }
+.submit-box .input .paperclip-svg { height: 20px; width: 20px; margin: 0px 7px; cursor: pointer; }
+.submit-box .input .submit-svg { height: 28px; width: 28px; position: absolute; right: 15px; top: 0px; bottom: 0px; margin: auto; cursor: pointer; }
+.pop-up { background-color: rgba(12, 12, 21, 0.85); width: 100%; height: 100%; position: absolute; z-index: 999999999; top: 0px; left: 0px; display: none; }
+.pop-up.active { display: flex; }
+.pop-up .pop-inner { background: rgb(255, 255, 255) none repeat scroll 0% 0%; width: 90%; max-width: 550px; padding-bottom: 25px; padding-top: 0px; font-size: 15px; position: relative; border-radius: 12px; z-index: 10; }
+.pop-up .pop-inner .name, .pop-up .pop-inner .make-profile, .pop-up .pop-inner .less-than { width: 100%; text-align: center; color: rgb(49, 49, 103); }
+.pop-up .pop-inner .name { font-size: 24px; font-weight: bold; color: rgb(27, 27, 51); padding-bottom: 15px; margin: 20px 0px 15px; border-bottom: 1px solid rgb(238, 238, 238); }
+.pop-up .btn { width: 90%; max-width: 385px; height: 70px; border-radius: 40px; color: rgb(255, 255, 255); text-transform: uppercase; padding: 22px 0px; background: rgba(0, 0, 0, 0) linear-gradient(to right, rgb(239, 43, 100) 0%, rgb(255, 112, 40) 100%) repeat scroll 0% 0%; margin: 40px 0px 20px; font-size: 18px; font-weight: bold; border: 1px solid rgb(253, 140, 47); cursor: pointer; text-align: center; letter-spacing: 1px; }
+.btn a { width: 100%; height: 100%; text-decoration: none; color: rgb(255, 255, 255); }
+.pop-up .btn.btn-off { background: rgb(212, 206, 205) none repeat scroll 0% 0%; border: 1px solid rgb(212, 206, 205); cursor: default; }
+.pop-up .btn.btn-on { display: none; }
+.pop-up .btn img { float: left; margin: 0px 0px 0px 6px; }
+.pop-up .btn-margin { margin-top: 0px !important; }
+.pop-up .btn-yes-no-box { width: 90%; justify-content: space-between; }
+.pop-up .btn-yes-no-box .btn { margin-top: 0px; width: 47%; }
+.pop-up .chat-circle { border-radius: 50%; border: 4px solid rgb(255, 255, 255); width: 120px; height: 120px; min-width: 120px; min-height: 120px; margin: -60px 0px 0px; background-size: cover !important; position: relative; }
+.pop-up .chat-circle-small { width: 60px; height: 60px; min-width: 60px; min-height: 60px; border-radius: 50%; background: rgb(113, 204, 53) none repeat scroll 0% 0%; border: 2px solid rgb(255, 255, 255); position: absolute; bottom: -7px; right: -20px; }
+.pop-up .chat-circle-small .icon-chat, .pop-up .chat-circle-small .svg-check { height: 48%; }
+.pop-up .chat-circle-small .svg-check { display: none; }
+.pop-up .chat-questions { width: 100%; overflow: hidden; }
+.pop-up .box-slide { width: 100%; display: none; overflow: hidden; }
+.pop-up .box-slide.box-visible { display: flex; }
+.pop-up .number-line { width: 100%; margin: 15px 0px 0px; }
+.pop-up .number { background: rgb(235, 235, 235) none repeat scroll 0% 0%; width: 65px; height: 65px; color: rgb(0, 0, 0); font-weight: bold; border-radius: 50%; font-size: 24px; }
+.pop-up .number:nth-child(2) { margin: 0px 14px; }
+.pop-up .number-text { width: 90%; height: 150px; text-align: center; color: rgb(0, 0, 0); font-size: 18px; overflow: hidden; }
+.pop-up .number-text p { width: 100%; float: left; }
+.pop-up .number-text .numbers-text-slide { display: none; }
+.pop-up .verifying-text, .continue-text { height: 200px; }
+.pop-up .continue-text { display: none; }
+.continue-text { margin-bottom: 25px; }
+.pop-up .thanks-blurb { font-size: 24px; margin-bottom: 5px !important; }
+.pop-up .verifying-answers { width: 100%; margin-bottom: 25px; }
+.preload { width: 0px; height: 0px; visibility: hidden; overflow: hidden; }
+.box button.next { display: flex; flex-direction: column; align-items: center; justify-content: center; }
+.cover-all { position: absolute; background-color: rgba(12, 12, 21, 0.85); top: 10px; left: 0px; width: 100%; z-index: 999999; font-family: "Open Sans",sans-serif; display: none; }
+.box { width: 100%; padding: 25px 25px 0px; position: relative; text-align: center; display: none; color: rgb(0, 0, 0); }
+.box a { color: rgb(0, 0, 0); text-decoration: underline; }
+.box h2, .box p { margin: 0px; padding: 0px; color: rgb(0, 0, 0); }
+.box h2 { font-size: 21px; font-weight: 700; }
+.box p { border-top: 1px solid rgb(209, 209, 209); }
+.box span { color: rgb(90, 171, 225); }
+.box button.next { width: 100%; height: 65px; font-size: 25px; color: rgb(0, 0, 0); background-color: rgb(255, 205, 84); border-radius: 7px; cursor: pointer; font-weight: bolder; border: 0px none; }
+.box button > .arrow { position: relative; bottom: -2px; }
+.box .btn { margin-top: 30px; width: 100%; }
+.err { background: rgb(255, 205, 210) none repeat scroll 0% 0%; color: rgb(255, 0, 0); border: 2px solid rgb(255, 0, 0); }
+.disclaimer { padding: 0px 30px; font-size: 10px; }
+.form, .form form { width: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; box-sizing: border-box; }
+p.email-title { text-align: center !important; }
+.form input { font-size: 18px; padding: 12px 10px; margin: 25px 0px 10px; width: 100%; box-sizing: border-box; border-radius: 2px; border: 1px solid rgb(144, 144, 144); }
+@media (max-height: 525px) {
+  header { height: 10%; font-size: 14px; }
+  header .arrow { width: 18px; height: 18px; }
+  .profile-box { height: 45%; text-align: center; }
+  .profile-box .profile-box-small .profile-small, .chat-box .messages .profile-small { width: 60px; height: 60px; min-width: 60px; min-height: 60px; }
+  .profile-box .profile-box-large .profile-large { margin: 5px 0px 10px; }
+  .profile-box .profile-box-large .name { font-size: 18px; }
+  .profile-box .profile-box-small .info .active { padding: 2px 0px; }
+  .profile-box .profile-box-large .pin-point span, .profile-box .profile-box-small .pin-point span { font-size: 16px; }
+  .chat-box .messages .message-box { width: calc(100% - 83px); }
+  .submit-box { height: 14%; }
+  .submit-box .input { font-size: 16px; }
+  .submit-box .input .submit-svg { height: 24px; width: 24px; }
+}
+@media (max-height: 425px) {
+  .chat-box .messages .profile-small { position: absolute; top: 0px; }
+}
+@media (max-width: 450px) {
+  .chat-box .messages .message-box .message { padding: 10px 12px; }
+  .chat-box .messages .message-box .message span { font-size: 13px; }
+  .chat-box .messages .message-box .message .just-now { font-size: 9px; }
+}
+@media (max-width: 345px) {
+  .chat-box .messages .message-box .message .pic { width: 80px; height: 80px; }
+}
+@media (max-width: 315px) {
+  .chat-box .messages .message-box .message .pic { width: 60px; height: 60px; }
+}
+@media (max-width: 330px) {
+  header .arrow, .submit-box .input .submit-svg { right: 12px; }
+}
+@media (max-width: 315px) {
+  header .name { position: absolute; left: 10px; top: 0px; bottom: 0px; margin: auto; display: flex; flex-direction: column; align-items: center; justify-content: center; }
+  header .arrow { right: 10px; }
+}
+@media (max-height: 600px) {
+  .pop-up.active { display: block; }
+  .pop-up .pop-inner { margin: 55px auto auto; }
+  .pop-up .chat-circle { border: 3px solid rgb(255, 255, 255); width: 90px; height: 90px; min-width: 90px; min-height: 90px; margin: -45px 0px 0px; }
+  .pop-up .number-text { font-size: 16px; height: initial; padding: 15px 0px; }
+  .continue-text { margin: 0px; }
+  .pop-up p.thanks-blurb { margin-top: 0px; }
+  .pop-up .number { width: 45px; height: 45px; }
+}
+@media screen and (max-width: 374px) {
+  .box .btn { font-size: 16px; }
+}

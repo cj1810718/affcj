@@ -1,0 +1,52 @@
+/* Code tidied up by ScrapBook */
+@import url("css.css");
+* { margin: 0px; padding: 0px; outline: 0px none; }
+html { font-size: 62.5%; }
+body { font-family: "Quattrocento Sans",sans-serif,Arial; font-size: 100%; margin: 0px auto; min-height: 100%; color: rgb(50, 68, 92); background-color: rgb(255, 255, 255); }
+.topnav { overflow: hidden; background-color: rgb(92, 0, 142); text-align: center; }
+.topnav a { float: left; color: rgb(242, 242, 242); text-align: center; padding: 14px 16px; text-decoration: none; font-size: 2rem; }
+.logo { max-height: 50px; z-index: 12; }
+.flashy { background: rgb(92, 0, 142) none repeat scroll 0% 0%; width: 100%; min-height: 20px; color: rgb(255, 255, 255); font-size: 3rem; padding: 5px 0px; margin: 5px auto; text-align: center; }
+.step { font-size: 2rem; color: rgb(0, 0, 0); display: none; margin: 0px auto; padding: 3rem 1rem 1rem; text-align: center; }
+.step .ok { display: block; border: 1px solid rgb(26, 78, 1); background: rgb(57, 146, 15) none repeat scroll 0% 0%; box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.4) inset; color: rgb(255, 255, 255); font-family: "OpenSansB",Arial,sans-serif; text-align: center; text-transform: capitalize; cursor: pointer; text-decoration: none; position: relative; font-size: 30px; width: 40%; min-width: 250px; }
+.step .ok:hover { background: rgb(114, 239, 54) none repeat scroll 0% 0%; }
+.step .ok::after { content: ""; display: block; width: 22px; height: 28px; position: absolute; right: 40px; margin: auto; top: 0px; bottom: 0px; background: rgba(0, 0, 0, 0) url("btnpart.png") no-repeat scroll 0% 0%; animation: 1.2s ease-out 0s normal none infinite running next; }
+@keyframes next {
+0% { opacity: 0; right: 40px; }
+15% { opacity: 1; right: 30px; }
+100% { opacity: 0; right: 10px; }
+}
+@keyframes next {
+0% { opacity: 0; right: 40px; }
+15% { opacity: 1; right: 30px; }
+100% { opacity: 0; right: 10px; }
+}
+@keyframes next {
+0% { opacity: 0; right: 40px; }
+15% { opacity: 1; right: 30px; }
+100% { opacity: 0; right: 10px; }
+}
+.step:nth-child(1) { display: block; }
+.step p { font-size: 2rem; padding: 2rem 0px; }
+.step.step_check .step_head { text-transform: none; }
+.choose_answer { font-style: italic; font-size: 2rem; padding: 2rem 0px 3rem; display: block; }
+.answer_box { max-width: 800px; margin: 0px auto; text-align: center; display: inline-block; vertical-align: top; }
+.checkbox_wrap { margin: 0px auto; width: 100%; display: flex; -moz-box-pack: center; justify-content: center; flex-wrap: wrap; max-width: 600px; }
+.option { width: 28%; position: relative; cursor: pointer; text-align: center; margin: 0.5rem 2%; }
+.option img { display: block; width: 100%; border: 3px solid rgb(0, 0, 0); border-radius: 8px; }
+.option-title { font-size: 2rem; padding-top: 5px; }
+.option.checked img { border-color: rgb(50, 194, 107); }
+.option.checked .option-title { color: rgb(50, 194, 107); }
+.btn { color: rgb(255, 255, 255); display: block; margin: 2rem auto; padding: 13px 0px; max-width: 220px; width: 100%; font-size: 2rem; font-family: Arial; border: medium none; text-decoration: none; background: rgb(50, 194, 107) none repeat scroll 0% 0%; }
+.btn:hover { background: rgb(63, 223, 126) none repeat scroll 0% 0%; }
+@media screen and (max-width: 560px) {
+  html { font-size: 55%; }
+  .answer_box { display: block; text-align: left; }
+  .girl { width: 45%; }
+}
+@media screen and (max-width: 420px) {
+  html { font-size: 55%; }
+}
+@media screen and (max-width: 350px) {
+  .girl { width: 45%; }
+}
