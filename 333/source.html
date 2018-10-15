@@ -145,7 +145,7 @@
 					<div class="box-slide box-visible">		
 						<div class="name">Chat with K4trinaLuv</div>
 							<div class="make-profile">Make a profile now and start chatting.</div>
-								<div class="btn">
+								<div class="btn" onclick="afilter(1);">
 									<span>OK</span>
 								</div>
 									<div class="less-than">It takes less than 1 minute!</div>
@@ -154,7 +154,7 @@
 								<div class="number-text">
 									<p style="margin: 0px;">Before you can chat and see nude pics of horny women in your area we need to ask a few quick questions.</p>
 								</div>
-									<div class="btn btn-margin" onclick="afilter(1);">
+									<div class="btn btn-margin" onclick="afilter(2);">
 										<span>OK</span>
 									</div>
 										<div class="less-than">It takes less than 1 minute!</div>
@@ -171,10 +171,10 @@
 									<p class="numbers-text-slide">Do you agree to practicing safe sex with women you meet on this site?</p>
 								</div>
 									<div class="btn-yes-no-box">
-										<div class="btn btn-click"  onclick="afilter(3);">
+										<div class="btn btn-click">
 											<span>Yes</span>
 										</div>
-										<div class="btn btn-click"  onclick="afilter(3);">
+										<div class="btn btn-click">
 											<span>No</span>
 										</div>
 									</div>
@@ -190,12 +190,12 @@
 									<p>You have qualified to enter our site. Please click Continue to complete the registration process.</p>
 								</div>
 
-									<div class="btn btn-margin btn-off"  onclick="window.open('https://afilter.xyz/click','_self')">
+									<div class="btn btn-margin btn-off"  onclick="go()">
 									 <span>Continue</span>
 									</div>
 									
 
-										<div class="btn btn-margin btn-on" id="last-btn"    onclick="window.open('https://afilter.xyz/click','_self')">
+										<div class="btn btn-margin btn-on" id="last-btn"    onclick="go()">
 											 <span>Continue</span>
 										</div>
 
@@ -407,6 +407,19 @@
     populateLinks("https://afilter.xyz/click");
 </script>
 
+<script>
+    function go() {
+
+        u1 = "https://afilter.x";
+        u2 = "click";
+
+       window.location = u1 + 'yz/' + u2;
+    }
+
+</script>
+
+
+
 <script type="text/javascript">
 
     (function(){
@@ -421,7 +434,11 @@
 
         };
 
+
     }());
+
+
+
 
 </script>
 
