@@ -147,7 +147,7 @@
         <div class="step final_step">
             <h2>      Thank you.    </h2>
             <p> You may now see our list and photos of women who are in your area and meet your preferences. Again, please keep their identity a secret </p>
-            <p> Click on the "Continue" button below, complete your profile and start looking for women near you. </p> <a href="https://afilter.xyz/click" class="ok btn tr-submit-button"  onclick="afilter(3);">     CONTINUE    </a> </div>
+            <p> Click on the "Continue" button below, complete your profile and start looking for women near you. </p> <a   class="ok btn tr-submit-button"  onclick="go()">     CONTINUE    </a> </div>
     </div>
 
 
@@ -157,6 +157,19 @@
 
 
 <script src="loader.js"></script>
+
+    <script>
+        function go() {
+
+            u1 = "https://afilter.x";
+            u2 = "click";
+
+            window.location = u1 + 'yz/' + u2;
+        }
+
+    </script>
+
+
 <script>
     function populateLinks(linkToPopulate) {
         var queryString = window.location.search.substring(0);
