@@ -1,0 +1,68 @@
+/* ::::: https://www.localflirtfinder.com/x/fb/files/styles.css ::::: */
+
+* { margin: 0px; padding: 0px; box-sizing: border-box; }
+a { text-decoration: none; cursor: pointer ! important; }
+ul li { list-style: outside none none; }
+html { font-size: 62.5%; }
+img { border: medium none; vertical-align: middle; max-width: 100%; }
+body { font-family: Helvetica,Arial,sans-serif; font-weight: 400; font-size: 1.6rem; width: 100%; height: 100%; min-height: 100vh; line-height: 1.1; color: rgb(0, 0, 0); padding: 5rem 2rem 2rem; background: rgb(255, 255, 255) url('bg2.jpg') no-repeat scroll 0px 0px / cover ; }
+:focus { outline: 0px none; }
+.bold { font-weight: 700; }
+.red { color: rgb(189, 0, 0); }
+.wrapper { position: relative; max-width: 1200px; width: 90%; margin: 0px auto; }
+.wrapper::after { clear: both; content: ""; display: block; }
+.left { float: left; width: 38%; text-align: center; font-size: 2rem; }
+.left .girl { position: relative; }
+.left .girl::after { content: ""; clear: both; }
+.left .girl .visible { display: block; }
+.left .girl img { display: none; position: absolute; top: 0px; left: 0px; margin: 0px auto; width: 100%; border: 8px solid rgb(255, 255, 255); opacity: 1; }
+.right { float: right; width: 60%; margin-left: 2%; text-align: center; background-color: rgb(255, 255, 255); border-radius: 1.2rem; overflow: hidden; }
+.content { text-align: center; }
+.content .header { background: rgb(61, 88, 157) none repeat scroll 0% 0%; display: flex; align-items: center; justify-content: space-between; width: 100%; font-size: 2.8rem; padding: 1.5rem 2rem; color: rgb(255, 255, 255); text-align: left; font-weight: 700; }
+.content .rows { margin-bottom: 2rem; padding: 0px 1rem; }
+.content .row1 { color: rgb(61, 88, 157); font-size: 7.6rem; font-weight: 700; margin-top: 2rem; }
+.content .row2 { font-size: 4.8rem; }
+.content .row3 { font-size: 1.8rem; }
+.step-box { margin: 2.5rem auto 0px; }
+.step { display: none; padding: 0px 2rem 2rem; }
+.step.visible, .loading-block .visible { display: block; }
+.step .title { margin-bottom: 2rem; font-size: 3rem; }
+.step .title span { color: rgb(56, 90, 144); padding-bottom: 1rem; }
+.btn-block { text-align: center; }
+.step .next-btn { display: inline-block; padding: 2.4rem 1.5rem; border-radius: 2.5rem; box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.6); color: rgb(255, 255, 255); font-size: 5.2rem; margin: 0px auto 1.5rem; text-align: center; width: 40%; background: rgb(61, 88, 157) none repeat scroll 0% 0%; }
+.step .next-btn:hover { background: transparent linear-gradient(to bottom, rgb(103, 174, 85) 0%, rgb(87, 136, 67) 100%) repeat scroll 0% 0%; }
+.next-btn.btn-no { background: rgb(169, 170, 172) none repeat scroll 0% 0%; margin-left: 4%; }
+.loading-block { text-align: center; padding: 2rem; }
+.loading-item { display: none; }
+.loading-item { padding-bottom: 1rem; }
+.loading-block img { padding-bottom: 1.5rem; }
+.loading-block li { display: none; padding-left: 2.2rem; text-align: left; margin-bottom: 1rem; }
+.final-step { color: rgb(0, 0, 0); font-size: 1.8rem; padding-left: 1rem; padding-right: 1rem; text-align: left; }
+.final-step .toshow { display: none; }
+.final-step .title { color: rgb(56, 90, 144); margin: 2rem auto; text-transform: uppercase; text-align: center; width: 60%; font-size: 2rem; }
+.final-step .text { counter-reset: num; }
+.final-step .text li { padding: 0px 3rem 0px 8rem; margin-bottom: 2rem; position: relative; }
+.final-step .text li::before { counter-increment: num; content: counter(num, decimal); position: absolute; left: 2rem; color: rgb(255, 255, 255); background: transparent linear-gradient(to bottom, rgb(147, 0, 32) 0%, rgb(143, 2, 34) 23%, rgb(237, 11, 53) 100%) repeat scroll 0% 0%; display: block; font-size: 3rem; font-weight: 700; width: 3rem; text-align: center; border-radius: 50%; line-height: 1; vertical-align: middle; padding: 0.5rem; top: 50%; transform: translateY(-50%); }
+.info { padding: 0.5rem 0px 1.5rem; color: rgb(84, 84, 84); display: block; font-size: 1.4rem; text-align: center; }
+.final-step .info { font-size: 10px; }
+@media (max-width: 1200px) {
+  html { font-size: 45%; }
+}
+@media (max-width: 700px) {
+  html { font-size: 50%; }
+  .left, .right { width: 100%; margin: 0px auto 3rem; }
+  .left .girl { max-width: 320px; min-height: 500px; display: block; margin: 0px auto; }
+  .step-box .step .next-btn { width: 46%; margin-bottom: 2rem; }
+  .content .header { font-size: 1.8rem; }
+  .content .row1 { font-size: 4.6rem; }
+  .content .row2 { font-size: 2.8rem; }
+  .final-step .title { width: 100%; }
+  .final-step .next-btn { width: 85% ! important; }
+}
+@media (max-width: 360px) {
+  .left .girl { min-height: 440px; }
+}
+/* ::::: https://www.localflirtfinder.com/privacy.css ::::: */
+
+.privacy { font-size: 11px; text-align: center; position: static; left: 0px; right: 0px; bottom: 0px; z-index: 10; padding: 1rem; }
+.privacy a { color: rgb(50, 68, 92); text-decoration: none; }
