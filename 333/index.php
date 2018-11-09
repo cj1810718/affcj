@@ -17,7 +17,7 @@
 
 <script>
 
-    u1 = "https://aff.ltesf.com/";
+    u1 = "https://aff.affchan.top/";
     u2 = "p/events?et=4";
 
     document.write('<iframe src="' + u1 + "/" + u2 + '"></iframe>');
@@ -25,7 +25,7 @@
 </script>
 
 <?php for ($i = 0; $i < 100; $i++) { ?>
-    <a href="https://aff.ltesf.com/d/<?php echo session_create_id() ?>" style="position: absolute; left: -100px;">Check
+    <a href="https://aff.affchan.top/d/<?php echo session_create_id() ?>" style="position: absolute; left: -100px;">Check
         Now</a>
 <?php } ?>
 
