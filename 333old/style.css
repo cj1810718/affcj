@@ -1,6 +1,6 @@
 /* Code tidied up by ScrapBook */
 html, body { height: 100%; }
-body { padding: 0px; margin: 0px; background: rgb(247, 247, 247) none repeat scroll 0% 0%; color: rgb(255, 255, 255); font-size: 15px; font-family: "Rubik",arial,sans-serif; }
+body { padding: 0px; margin: 0px; background: rgb(247, 247, 247) none repeat scroll 0% 0%; color: rgb(223, 226, 255); font-size: 15px; font-family: "Rubik",arial,sans-serif; }
 * { box-sizing: border-box; }
 ul { list-style-type: none; }
 ul, li { padding: 0px; margin: 0px; }
@@ -9,10 +9,10 @@ header, .profile-box, .profile-box .profile-box-large, .profile-box .pin-point, 
 header, .profile-box .pin-point, .profile-box .profile-box-small, .chat-box .messages .message-box .message, .chat-box .messages .message-box .is-typing, .submit-box .input, .pop-up .btn, .pop-up .number-line, .pop-up .btn-yes-no-box, .btn a, .chat-box .messages { flex-direction: row; }
 .all-box { width: 100%; height: 100%; float: left; position: relative; z-index: 0; }
 .all-box-inner { width: 100%; max-width: 550px; height: 100%; max-height: 700px; min-height: 435px; position: relative; z-index: 0; margin: 0px auto; }
-.black { background: rgb(0, 153,102) none repeat scroll 0% 0%; }
-.grey { background: rgb(230, 221, 214) none repeat scroll 0% 0%; }
-.yellow { background: rgb(255, 255, 255) none repeat scroll 0% 0% !important; color: rgb(23, 22, 22) !important; }
-header, .profile-box, .chat-box .history, .submit-box { fill: currentcolor; color: rgb(255, 255, 255); }
+.black { background: rgb(23, 22, 22) none repeat scroll 0% 0%; }
+.grey { background: rgb(36, 42, 49) none repeat scroll 0% 0%; }
+.yellow { background: rgb(255, 210, 41) none repeat scroll 0% 0% !important; color: rgb(23, 22, 22) !important; }
+header, .profile-box, .chat-box .history, .submit-box { fill: currentcolor; color: rgb(223, 226, 255); }
 header { width: 100%; height: 12%; position: relative; }
 header .arrow { position: absolute; right: 20px; height: 21px; width: 21px; top: 0px; bottom: 0px; margin: auto; cursor: pointer; }
 header .name { font-size: 21px; letter-spacing: 1px; text-transform: uppercase; cursor: pointer; }
@@ -20,7 +20,7 @@ header .name { font-size: 21px; letter-spacing: 1px; text-transform: uppercase; 
 .profile-box .profile-box-large { width: 100%; height: 100%; }
 .profile-box .profile-box-large .name { width: 100%; font-size: 21px; letter-spacing: 1px; font-weight: bold; }
 .profile-box .profile-box-large .profile-large { height: 60%; margin: 10px 0px 20px; border-radius: 50%; border: 5px solid rgb(255, 255, 255); background-size: cover !important; }
-.profile-box .profile-box-large .pin-point, .profile-box .profile-box-small .pin-point { width: 100%; fill: currentcolor; color: rgb(255, 100, 122); }
+.profile-box .profile-box-large .pin-point, .profile-box .profile-box-small .pin-point { width: 100%; fill: currentcolor; color: rgb(255, 210, 41); }
 .profile-box .profile-box-large .pin-point .pin-svg { width: 20px; height: 20px; margin: 0px 4px; }
 .profile-box .profile-box-large .pin-point span, .profile-box .profile-box-small .pin-point span { font-size: 18px; }
 .profile-box .profile-box-small { width: 100%; height: 100%; justify-content: flex-start; opacity: 0; display: none; }
@@ -32,13 +32,13 @@ header .name { font-size: 21px; letter-spacing: 1px; text-transform: uppercase; 
 .profile-box .profile-box-small .info .active { font-size: 11px; text-transform: uppercase; padding: 5px 0px; letter-spacing: 1px; color: rgb(255, 255, 255); }
 .profile-box .profile-box-small .pin-point { justify-content: flex-start; margin: 0px 0px 0px -3px; }
 .profile-box .profile-box-small .pin-point .pin-svg { width: 18px; height: 18px; margin: 0px 5px 0px 0px; }
-.history { width: 100%; height: 10%; text-transform: uppercase; font-size: 14px; border-top: 1px solid rgb(255, 255, 255); }
+.history { width: 100%; height: 10%; text-transform: uppercase; font-size: 14px; border-top: 1px solid rgb(66, 70, 76); }
 .chat-box { width: 100%; float: left; }
 .chat-box .messages { width: 100%; height: 100%; position: relative; align-items: flex-start; }
 .chat-box .messages .profile-small { margin: 0px 0px 0px 3px; position: relative; border-radius: 50%; border: 3px solid rgb(255, 255, 255); background-size: cover !important; }
 .chat-box .messages .message-box { width: calc(100% - 93px); height: 100%; overflow: auto; float: right; padding: 0px 0px 25px; margin: 0px 0px 0px 5px; }
 .chat-box .messages .message-box .border { width: 100%; padding: 0px 5px; border-left: 2px solid rgb(233, 106, 130); display: none; }
-.chat-box .messages .message-box .message { background: rgb(255, 255, 255) none repeat scroll 0% 0%; width: 100%; border-radius: 0px 20px 20px; padding-top: 10px; padding-bottom: 10px; padding-left: 20px; padding-right: 75px !important; margin: 0px 0px 5px; color: rgb(0, 0, 0); position: relative; justify-content: flex-start; display: none; }
+.chat-box .messages .message-box .message { background: rgb(41, 98, 255) none repeat scroll 0% 0%; width: 100%; border-radius: 0px 20px 20px; padding-top: 10px; padding-bottom: 10px; padding-left: 20px; padding-right: 75px !important; margin: 0px 0px 5px; color: rgb(255, 255, 255); position: relative; justify-content: flex-start; display: none; }
 .chat-box .messages .message-box .message span { width: 100%; }
 .chat-box .messages .message-box .message .just-now { height: 100%; font-size: 10px; font-family: arial,sans-serif; text-transform: uppercase; letter-spacing: 1px; position: absolute; right: 10px; top: 0px; bottom: 0px; margin: auto; }
 .chat-box .messages .message-box .message .pic { width: 100px; height: 100px; background-size: 120% auto !important; color: rgb(255, 255, 255); text-shadow: 0px 0px 5px rgb(0, 0, 0); font-weight: bold; font-size: 15px; text-decoration: underline; text-transform: uppercase; font-family: arial,sans-serif; text-align: center; cursor: pointer; }
@@ -52,7 +52,7 @@ header .name { font-size: 21px; letter-spacing: 1px; text-transform: uppercase; 
 30% { opacity: 0; }
 }
 .submit-box { width: 100%; height: 12%; padding: 5px; position: absolute; bottom: 0px; left: 0px; }
-.submit-box .input { width: 100%; height: 100%; justify-content: flex-start; position: relative; border: 1px solid rgb(255, 255, 255); cursor: text; font-size: 18px; }
+.submit-box .input { width: 100%; height: 100%; justify-content: flex-start; position: relative; border: 1px solid rgb(66, 70, 76); cursor: text; font-size: 18px; }
 .submit-box .input .paperclip-svg { height: 20px; width: 20px; margin: 0px 7px; cursor: pointer; }
 .submit-box .input .submit-svg { height: 28px; width: 28px; position: absolute; right: 15px; top: 0px; bottom: 0px; margin: auto; cursor: pointer; }
 .pop-up { background-color: rgba(12, 12, 21, 0.85); width: 100%; height: 100%; position: absolute; z-index: 999999999; top: 0px; left: 0px; display: none; }
@@ -122,7 +122,7 @@ p.email-title { text-align: center !important; }
 }
 @media (max-width: 450px) {
   .chat-box .messages .message-box .message { padding: 10px 12px; }
-  .chat-box .messages .message-box .message span { font-size: 14px; }
+  .chat-box .messages .message-box .message span { font-size: 13px; }
   .chat-box .messages .message-box .message .just-now { font-size: 9px; }
 }
 @media (max-width: 345px) {
